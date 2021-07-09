@@ -123,7 +123,7 @@ const generateProfile = (answers) => {
             const number = answers.getNumber();
             profile = profile +
             `
-            <li class"list-group-item">Office Number: ${number}</li>
+            <li class="list-group-item">Office Number: ${number}</li>
             `;
         } else if (role === "Engineer") {
             const github = answers.getGithub();
